@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #f8f9fa, #e0f7fa, #fce4ec);
+    background-size: 300% 300%; 
+    animation: backgroundAnimation 5s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1{
+    font-size: 35px;
+}
+
+img{
+    margin-top: 110px;
+    width: 15rem;
+    height: auto;
+    border-radius: 95px;
+    box-shadow: 0px 0px 38px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 38px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 38px 0px rgba(0,0,0,1);
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    border-radius: 50px;
+}
+
+.miPerfil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafo{
+padding-bottom: 10px;
+display: flex;
+flex-direction: row; 
+align-items: center;  
+gap: 5px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+#btnReestablecer {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: 0.5px solid rgb(121, 121, 121);
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f8f9fa, #e0f7fa, #fce4ec);
+    background-size: 300% 300%;
+    animation: buttonAnimation 5s ease infinite;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+@keyframes buttonAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
