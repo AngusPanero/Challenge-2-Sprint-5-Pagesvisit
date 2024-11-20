@@ -13,20 +13,3 @@ boton.addEventListener("click", () => {
     visitasNumero.innerHTML = `<p>${contadorVisitas}</p>`;
 });
 
-
-/* //HTML
-const content = document.querySelector(".content")
-content.innerHTML = `
-<div class="miPerfil">
-    <img src="/img/IMG_5679.heic" alt="miFoto">
-</div>
-<div class="links">
-    <p><a href="https://github.com/AngusPanero/Pokemon" target="_blank">AngusPanero/Pokemon</a></p>
-    <p><a href="https://github.com/AngusPanero/Challenge-2-Sprint-4-Rick-Morty" target="_blank">AngusPanero/Rick & Morty</a></p>
-</div>
-`
- */
-
-
-
-
